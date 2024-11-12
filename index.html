@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Mananirina Razafitsiory</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Mananirina Razafitsiory">
+    <meta name="author" content="Zineb">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="css/kube.css" />
+    <link rel="stylesheet" href="css/custom.css" />
+    <link rel="shortcut icon" href="img/favicon.png" />
+	<link href='http://fonts.googleapis.com/css?family=Playfair+Display+SC:700' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Arial:400,700' rel='stylesheet' type='text/css'>
+	<link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.6.0/css/all.min.css">
+
+</head>
+<body>
+	<!-- Navigation -->
+	<div class="main-nav">
+		<div class="container">
+			<header class="group top-nav">
+				<div class="navigation-toggle" data-tools="navigation-toggle" data-target="#navbar-1">
+				    <span class="logo">Menu</span>
+				</div>
+			    <nav id="navbar-1" class="navbar item-nav">
+				    <ul>
+				        <li class="active"><a href="#about">About</a></li>
+				        <li><a href="pages/education.html">Education</a></li>
+				        <li><a href="pages/experiences.html">Experiences</a></li>
+				        <li><a href="pages/research.html">Research</a></li>
+				        <li><a href="pages/skills.html">Skills</a></li>
+				        <li><a href="pages/activities.html">Activities</a></li>
+				    </ul>
+				</nav>
+			</header>
+		</div>
+	</div>
+
+	<!-- Introduction -->
+	<div class="intro section" id="about">
+		<div class="container">
+			<div class="units-row units-split wrap">
+				<div class="row-intro">
+					<div class="unit-20">
+						<img src="img/ava.jpeg" alt="Avatar">
+					</div>
+					<div class="unit-80">
+						<h1>My name is<br><span id="typed"></span></h1>
+					</div>
+				</div>
+				<p>
+
+					I am currently pursuing a Ph.D. in Economics at Université Laval in Quebec, Canada. My research is centered on macroeconomic studies that investigate the relation between work automation and business cycles. I have 6 years of work experience in Cote d’Ivoire, Canada and United States. Besides my
+					technical strengths, I have excellent leadership and communication skills.	</p>
+					<h4>Contact</h4>
+					<div class="contact">
+					<ul>
+						<li> <i class="fa-solid fa-user"></i> Mananirina Razafitsiory</li>
+						<li><i class="fa-regular fa-envelope"></i> <a>mananirina.razafitsiory.1@ulaval.ca</a></li>
+						<li> <i class="fa-solid fa-phone"></i> +1 (581) 989 9916</li>
+						<li> <i class="fa-solid fa-location-dot"></i> Montréal, Canada</li>
+						
+					</ul>
+				</div>
+				
+				
+			</div>
+		</div>
+	</div>
+
+	<!-- Javascript -->
+	<script src="js/jquery.min.js"></script>
+	<script src="js/typed.min.js"></script>
+    <script src="js/kube.min.js"></script>
+    <script src="js/site.js"></script>
+    <script>
+		function newTyped(){}$(function(){$("#typed").typed({
+		// Change to edit type effect
+		strings: ["Mananirina Razafitsiory"],
+
+		typeSpeed:90,backDelay:700,contentType:"html",loop:!0,resetCallback:function(){newTyped()}}),$(".reset").click(function(){$("#typed").typed("reset")})});
+    </script>
+</body>
+</html>
