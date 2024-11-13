@@ -24,7 +24,7 @@ a:hover {
 
 .container {
   margin: auto;
-  max-width: 700px;
+  max-width:750px;
   padding: 0 20px;
  }
 
@@ -91,7 +91,6 @@ a:hover {
     left: 20px; }
   .section .container h1 {
     text-transform: uppercase;
-    margin-bottom: 30px;
     position: relative; }
 
 .intro {
@@ -99,11 +98,9 @@ a:hover {
   margin-top: 120px;
   overflow-x: hidden; }
   .intro img {
-    width: 140px;
-    height: 140px;
-    border-radius: 99px; }
-  .intro .wrap {
-    margin: 30px 0px; }
+    width: 250px;
+    height: 250px;
+    border-radius: 10px;}
   .intro h1:before {
     position: absolute;
     left: -220px;
@@ -208,6 +205,7 @@ footer {
   flex-direction: row;
   align-items: center;
   margin-bottom: 22px;
+  justify-content: center;
 }
 
 .welcom-text{
@@ -250,4 +248,48 @@ footer {
     color:  #f37335;
     }
   }
+ 
  }
+ .div-shadow{
+  border-radius: 6px;
+    background-color: #fff;
+    box-shadow: 0 0 20px 0 rgba(20, 58, 162, .14);
+    padding: 30px;
+    margin-bottom: 15px;
+ }
+
+ .link a{
+  color: #1890ff;
+  outline: 0;
+  cursor: pointer;
+}
+.link  a:hover {
+  border-bottom: 1px solid #f37335;
+}
+
+.reference{
+  margin-top: 120px;
+}
+.reference .reference-list {
+margin-left: 0px; }
+
+.reference .reference-list li {
+list-style: none;
+font-size: 17px;
+color: black; }
+ 
+  .reference .reference-list li:first-child {
+    font-weight: bold;
+    color: #f37335;
+    font-size: 18px!important;
+    }
+
+    body {
+      background-image: url(../img/shape1_b.png),
+        url(../img/shape2_b.png),
+        url(../img/shape_cer.png),
+        url(../img/shape5_b.png);
+      background-repeat: no-repeat;
+      background-position: top 0px right -30px, top 80px left -30px, 
+        top 750px left 150px, top 700px right 0px;
+    }
