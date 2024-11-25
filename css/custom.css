@@ -252,7 +252,6 @@ footer {
  }
  
  .button-cv{
-  font-family: Quicksand_bold;
   font-size: 1rem;
   color: #fff !important;
   border-radius: 6px;
@@ -266,6 +265,7 @@ footer {
     font-weight: bold;
   }
  }
+ 
  .div-shadow{
   border-radius: 6px;
     background-color: #fff;
@@ -275,7 +275,7 @@ footer {
  }
 
  .grand-div{
-  margin-bottom: 50px;
+   margin-bottom: 50px;
     margin-top: 130px;
  }
 
