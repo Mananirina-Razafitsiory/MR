@@ -83,7 +83,8 @@ a:hover {
     font-weight: bold; }
 
 .section.second {
-  margin-bottom: 90px; }
+  margin-bottom: 90px; 
+}
 .section .container {
   position: relative; }
   .section .container:after {
@@ -265,7 +266,7 @@ footer {
     font-weight: bold;
   }
  }
- 
+
  .div-shadow{
   border-radius: 6px;
     background-color: #fff;
